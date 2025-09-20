@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "KitchenBuddyLeo",
+    "slug": "KitchenBuddyLeo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "https://freesvg.org/img/refrigerator.png",
+    "scheme": "kitchenbuddyleo",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "jsEngine": "hermes",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#000000"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#000000"
+        }
+      ],
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
