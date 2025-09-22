@@ -1,48 +1,48 @@
 # 🍳 Kitchen Buddy Leo
 
-KitchenBuddyLeo è un’app mobile sviluppata in **React Native con TypeScript** per aiutare a gestire gli ingredienti in cucina.  
-Consente di **aggiungere, organizzare e monitorare la scadenza degli alimenti**, con un’interfaccia semplice e intuitiva.  
+KitchenBuddyLeo is a **React Native with TypeScript** mobile application designed to help manage kitchen ingredients.  
+It allows users to **add, organize, and track the expiration of food items**, with a simple and intuitive interface.  
 
 ---
 
-## 🚀 Tecnologie principali
-- **React Native** – framework cross-platform  
-- **TypeScript** – tipizzazione statica e annotazioni sui metodi  
-- **Context API & Hooks** – gestione dello stato globale  
-- **Functional programming** – funzioni pure, immutabilità dei dati, componenti riutilizzabili  
+## 🚀 Main Technologies
+- **React Native** – cross-platform framework  
+- **TypeScript** – static typing and annotations  
+- **Context API & Hooks** – global state management  
+- **Functional programming** – pure functions, immutability, reusable components  
 
 ---
 
-## 📂 Struttura del progetto
+## 📂 Project Structure
 ```
 KitchenBuddyLeo-main/
-│── app/              # Configurazione principale
-│── assets/           # Icone e immagini
-│── components/ui/    # Componenti riutilizzabili (bottoni, cards, inputs…)
-│── constants/        # Costanti globali
-│── contexts/         # Context API (gestione ingredienti)
+│── app/              # Main app configuration
+│── assets/           # Icons and images
+│── components/ui/    # Reusable UI components (buttons, cards, inputs…)
+│── constants/        # Global constants
+│── contexts/         # Context API (ingredient management)
 │── hooks/            # Custom hooks
-│── screens/          # Schermate principali
-│── tabs/             # Navigazione a tab
-│── types/            # Tipi e interfacce TS
-│── utils/            # Funzioni di utilità
-│── App.js / App.json # Entry point
-│── package.json      # Dipendenze
-│── tsconfig.json     # Configurazione TypeScript
+│── screens/          # Main app screens
+│── tabs/             # Tab navigation
+│── types/            # Types and TS interfaces
+│── utils/            # Utility functions
+│── App.js / App.json # App entry point
+│── package.json      # Dependencies
+│── tsconfig.json     # TypeScript configuration
 ```
 
 ---
 
 ## 📑 Functional Programming
-Il progetto segue principi di programmazione funzionale:
-- Funzioni **pure** con un solo scopo  
-- Gestione **immutabile** degli stati (spread operator)  
-- Separazione tra **logica** e **presentazione**  
+The project follows functional programming principles:
+- **Pure functions** with a single purpose  
+- **Immutable state** management (using spread operator)  
+- Clear separation between **logic** and **presentation**  
 
 ---
 
 ## 🟦 TypeScript
-Ogni **data structure** ha un type/interface, con annotazioni per parametri e ritorni.  
+Each **data structure** has its own type/interface, with annotations for parameters and return types.  
 
 ```ts
 type Ingredient = {
@@ -59,47 +59,47 @@ type Ingredient = {
 
 ---
 
-## 📌 Componenti & Props
+## 📌 Components & Props
 
 - **IngredientForm** (`screens/AddIngredient.tsx`)  
   - Props: none  
   - State: `name`, `brand`, `category`, `location`, `confectionType`, `ripeness`, `expirationDate`  
-  - Funzione: aggiungere un nuovo ingrediente  
+  - Purpose: add a new ingredient  
 
 - **IngredientList** (`screens/MyIngredients.tsx`)  
   - Props: `ingredients[]`  
-  - State: none (usa Context API)  
-  - Funzione: mostrare la lista degli ingredienti salvati  
+  - State: none (uses Context API)  
+  - Purpose: display the list of saved ingredients  
 
 - **ExpiringSoon** (`screens/ExpiringSoon.tsx`)  
-  - Props: `ingredients[]` filtrati per data di scadenza  
+  - Props: `ingredients[]` filtered by expiration date  
   - State: none  
-  - Funzione: evidenziare alimenti in scadenza  
+  - Purpose: highlight ingredients that are close to expiration  
 
 - **CustomButton / UI Components** (`components/ui/`)  
   - Props: `label`, `onPress`, `style`  
   - State: none  
-  - Funzione: componenti riutilizzabili per UI  
+  - Purpose: reusable UI components  
 
 ---
 
-## 🔄 Flussi di controllo
-- **Callbacks passate da parent a child**: es. `onSubmit` dal form al context  
-- **Callbacks che modificano lo stato**: l’aggiunta di un ingrediente aggiorna lo `state` globale  
-- **Cambi di stato → modifiche UI**: aggiungendo un ingrediente cambia la lista e la scheda "Expiring Soon"   
+## 🔄 Control Flows
+- **Callbacks passed from parent to child**: e.g. `onSubmit` from form to context  
+- **Callbacks updating state**: adding an ingredient updates the global `state`  
+- **State changes → UI updates**: adding an ingredient modifies the list and the "Expiring Soon" screen  
 
 ---
 
-## ▶️ Avvio del progetto
-1. Clona la repo:
+## ▶️ Run the project
+1. Clone the repo:
    ```bash
    git clone https://github.com/Leo3448262/KitchenBuddyLeo-main
    ```
-2. Installa le dipendenze:
+2. Install dependencies:
    ```bash
    npm install
    ```
-3. Avvia con Expo:
+3. Start with Expo:
    ```bash
    npx expo start
    ```
@@ -107,9 +107,9 @@ type Ingredient = {
 ---
 
 ## 🌐 Snack Link
-👉 [Expo Snack Demo](https://snack.expo.dev/) *(inserire qui il link del progetto caricato)*  
+👉 [Expo Snack Demo](https://snack.expo.dev/) *(insert here the project link when published)*  
 
 ---
 
-## 👨‍💻 Autore
-Progetto sviluppato da **Leonardo De Vito**.  
+## 👨‍💻 Author
+Project developed by **Leonardo De Vito**.  
