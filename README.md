@@ -18,7 +18,7 @@ KitchenBuddyLeo-main/
 │── tabs/             # Tab navigation
 │── types/            # Types and TS interfaces
 │── utils/            # Utility functions
-│── App.js / App.json # App entry point
+│── _layout.tsx       # App entry point
 │── package.json      # Dependencies
 │── tsconfig.json     # TypeScript configuration
 ```
@@ -94,5 +94,6 @@ type Ingredient = {
 
 ## Author
 Project developed by **Leonardo De Vito**.  
+
 
 
