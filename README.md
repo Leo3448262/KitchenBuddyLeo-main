@@ -1,19 +1,19 @@
-# 🍳 Kitchen Buddy Leo
+# Kitchen Buddy Leo
 
-KitchenBuddyLeo is a **React Native with TypeScript** mobile application designed to help manage kitchen ingredients.  
-It allows users to **add, organize, and track the expiration of food items**, with a simple and intuitive interface.  
-
----
-
-## 🚀 Main Technologies
-- **React Native** – cross-platform framework  
-- **TypeScript** – static typing and annotations  
-- **Context API & Hooks** – global state management  
-- **Functional programming** – pure functions, immutability, reusable components  
+KitchenBuddyLeo is a **React Native with TypeScript** mobile application, designed to help manage kitchen ingredients.  
+It allows users to **add, organize, and track the expiration of food items**.  
 
 ---
 
-## 📂 Project Structure
+## Main Technologies used
+- **React Native**
+- **TypeScript**
+- **Context API & Hooks**
+- **Functional programming**
+
+---
+
+## Project Structure
 ```
 KitchenBuddyLeo-main/
 │── app/              # Main app configuration
@@ -33,7 +33,7 @@ KitchenBuddyLeo-main/
 
 ---
 
-## 📑 Functional Programming
+## Functional Programming
 The project follows functional programming principles:
 - **Pure functions** with a single purpose  
 - **Immutable state** management (using spread operator)  
@@ -41,8 +41,8 @@ The project follows functional programming principles:
 
 ---
 
-## 🟦 TypeScript
-Each **data structure** has its own type/interface, with annotations for parameters and return types.  
+## TypeScript
+Each **data structure** has its own type/interface.  
 
 ```ts
 type Ingredient = {
@@ -59,7 +59,7 @@ type Ingredient = {
 
 ---
 
-## 📌 Components & Props
+## Components & Props
 
 - **IngredientForm** (`screens/AddIngredient.tsx`)  
   - Props: none  
@@ -83,33 +83,13 @@ type Ingredient = {
 
 ---
 
-## 🔄 Control Flows
+## Control Flows
 - **Callbacks passed from parent to child**: e.g. `onSubmit` from form to context  
 - **Callbacks updating state**: adding an ingredient updates the global `state`  
 - **State changes → UI updates**: adding an ingredient modifies the list and the "Expiring Soon" screen  
 
 ---
 
-## ▶️ Run the project
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/Leo3448262/KitchenBuddyLeo-main
-   ```
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-3. Start with Expo:
-   ```bash
-   npx expo start
-   ```
-
----
-
-## 🌐 Snack Link
-👉 [Expo Snack Demo](https://snack.expo.dev/) *(insert here the project link when published)*  
-
----
-
-## 👨‍💻 Author
+## Author
 Project developed by **Leonardo De Vito**.  
+
