@@ -11,15 +11,24 @@ KitchenBuddyLeo-main/
 │── app/ 
 │── assets/  
 │── components/ui/
+|─────────────────buttons/
+|─────────────────cards/
+|─────────────────dropdowns/
 │── constants/  
 │── contexts/   
-│── hooks/    
-│── screens/     
+│── hooks/
+|─────────storage/    
+│── screens/
+│── scripts/      
 │── tabs/     
 │── types/     
 │── utils/     
-│── _layout.tsx   
-│── package.json  
+│── App.js
+│── App.json
+│── eslint.config.js
+│── package-lock.json
+│── package.json
+│── readme.md
 │── tsconfig.json 
 ```
 
@@ -94,6 +103,7 @@ type Ingredient = {
 
 ## Author
 Project developed by **Leonardo De Vito**.  
+
 
 
 
