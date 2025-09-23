@@ -8,19 +8,19 @@ It allows users to **add, organize, and track the expiration of food items**.
 ## Project Structure
 ```
 KitchenBuddyLeo-main/
-│── app/              # Main app configuration
-│── assets/           # Icons and images
-│── components/ui/    # Reusable UI components (buttons, cards, inputs…)
-│── constants/        # Global constants
-│── contexts/         # Context API (ingredient management)
-│── hooks/            # Custom hooks
-│── screens/          # Main app screens
-│── tabs/             # Tab navigation
-│── types/            # Types and TS interfaces
-│── utils/            # Utility functions
-│── _layout.tsx       # App entry point
-│── package.json      # Dependencies
-│── tsconfig.json     # TypeScript configuration
+│── app/ 
+│── assets/  
+│── components/ui/ 
+│── constants/  
+│── contexts/   
+│── hooks/    
+│── screens/     
+│── tabs/     
+│── types/     
+│── utils/     
+│── _layout.tsx   
+│── package.json  
+│── tsconfig.json 
 ```
 
 ---
@@ -94,6 +94,7 @@ type Ingredient = {
 
 ## Author
 Project developed by **Leonardo De Vito**.  
+
 
 
 
