@@ -10,7 +10,7 @@ It allows users to **add, organize, and track the expiration of food items**.
 KitchenBuddyLeo-main/
 │── app/ 
 │── assets/  
-│── components/ui/ 
+│── components/ui/
 │── constants/  
 │── contexts/   
 │── hooks/    
@@ -94,6 +94,7 @@ type Ingredient = {
 
 ## Author
 Project developed by **Leonardo De Vito**.  
+
 
 
 
