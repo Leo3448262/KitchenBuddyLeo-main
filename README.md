@@ -5,14 +5,6 @@ It allows users to **add, organize, and track the expiration of food items**.
 
 ---
 
-## Main Technologies used
-- **React Native**
-- **TypeScript**
-- **Context API & Hooks**
-- **Functional programming**
-
----
-
 ## Project Structure
 ```
 KitchenBuddyLeo-main/
@@ -29,32 +21,6 @@ KitchenBuddyLeo-main/
 │── App.js / App.json # App entry point
 │── package.json      # Dependencies
 │── tsconfig.json     # TypeScript configuration
-```
-
----
-
-## Functional Programming
-The project follows functional programming principles:
-- **Pure functions** with a single purpose  
-- **Immutable state** management (using spread operator)  
-- Clear separation between **logic** and **presentation**  
-
----
-
-## TypeScript
-Each **data structure** has its own type/interface.  
-
-```ts
-type Ingredient = {
-  id: string;
-  name: string;
-  brand?: string;
-  category: string;
-  location: string;
-  confectionType: string;
-  ripeness: string;
-  expirationDate: Date;
-};
 ```
 
 ---
@@ -83,6 +49,42 @@ type Ingredient = {
 
 ---
 
+## Main Technologies used
+- **React Native**
+- **TypeScript**
+- **Context API & Hooks**
+- **Functional programming**
+
+
+---
+
+## Functional Programming
+The project follows functional programming principles:
+- **Pure functions** with a single purpose  
+- **Immutable state** management (using spread operator)  
+- Clear separation between **logic** and **presentation**  
+
+---
+
+## TypeScript
+Each **data structure** has its own type/interface.  
+
+```ts
+type Ingredient = {
+  id: string;
+  name: string;
+  brand?: string;
+  category: string;
+  location: string;
+  confectionType: string;
+  ripeness: string;
+  expirationDate: Date;
+};
+```
+
+
+---
+
 ## Control Flows
 - **Callbacks passed from parent to child**: e.g. `onSubmit` from form to context  
 - **Callbacks updating state**: adding an ingredient updates the global `state`  
@@ -92,4 +94,5 @@ type Ingredient = {
 
 ## Author
 Project developed by **Leonardo De Vito**.  
+
 
